@@ -188,7 +188,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 50b024b7a9e2f49408997292772e6be2, type: 3}
       propertyPath: m_Name
-      value: kirby
+      value: Collectible
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 50b024b7a9e2f49408997292772e6be2, type: 3}
+      propertyPath: m_TagString
+      value: Collectible
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50b024b7a9e2f49408997292772e6be2, type: 3}
@@ -677,3 +681,15 @@ CapsuleCollider:
   m_Height: 4.560357
   m_Direction: 2
   m_Center: {x: -0.00000011920929, y: 0.031999227, z: -1.7801824}
+--- !u!114 &1334363720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334363716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09f769d1b360de74d95a7632dbab856f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
