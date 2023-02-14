@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlaneScript : MonoBehaviour
 {
     public float forwardSpeed = 50;
-    public float rotateSpeed = 20;
+    public float rotateSpeed = 80;
 
     // Start is called before the first frame update
     void Start()

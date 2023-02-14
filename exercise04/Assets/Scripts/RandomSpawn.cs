@@ -14,7 +14,7 @@ public class RandomSpawn : MonoBehaviour
     void Start()
     {
         collectibleSpacing = new Vector3(Random.Range(-20, 20), 0, Random.Range(2, 20));
-        enemySpacing = new Vector3(Random.Range(-20, 20), 0, Random.Range(2, 20));
+        enemySpacing = new Vector3(Random.Range(-20, 20), 0, Random.Range(6, 20));
         Instantiate(collectible, transform.position + collectibleSpacing, Quaternion.identity);
         Instantiate(enemy, transform.position + enemySpacing, Quaternion.identity);
     }

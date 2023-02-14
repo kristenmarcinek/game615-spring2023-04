@@ -7,6 +7,10 @@ public class KirbyCollector : MonoBehaviour
 {
     int number;
     public TextMeshProUGUI display;
+    public GameObject kirbyStacker;
+    public Vector3 stackOffset;
+    public float yIncrement;
+    public AudioSource sfx;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +29,10 @@ public class KirbyCollector : MonoBehaviour
             //other.gameObject.SetActive(false);
             Destroy(other.gameObject);
             number += 1;
+            sfx.Play();
+            if (number < 20) {
+                Instantiate(kirbyStacker, transform.position + stackOffset + 0 * transform.forward + new Vector3(0, number * yIncrement, 0), transform.rotation, transform);
+            }
         }
     }
 }

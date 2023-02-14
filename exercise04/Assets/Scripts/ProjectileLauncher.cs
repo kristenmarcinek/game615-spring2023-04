@@ -5,6 +5,7 @@ using UnityEngine;
 public class ProjectileLauncher : MonoBehaviour {
     public GameObject fire;
     public Vector3 positionOffset;
+    public AudioSource sfx;
 
     //public GameObject SphereObj;
     //public Renderer SphereRend;
@@ -31,6 +32,9 @@ public class ProjectileLauncher : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            sfx.Play();
+        }
         if (Input.GetKey(KeyCode.Space)) {
             // This will instantiate and launch 100 prefabs of the banana car.
             for (int i = 0; i < 1; i++) {

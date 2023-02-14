@@ -11,3 +11,6 @@ Challenges:
 
 
 Fire by Jakob Hippe [CC-BY] via Poly Pizza
+
+Sounds by Nintendo and Atlus
+Music by Shoji Meguro

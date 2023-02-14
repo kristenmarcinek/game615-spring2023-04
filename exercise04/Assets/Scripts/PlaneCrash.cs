@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlaneCrash : MonoBehaviour
 {
+    public AudioSource sfx;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,7 @@ public class PlaneCrash : MonoBehaviour
             //other.gameObject.SetActive(false);
             //Destroy(other.gameObject);
             transform.position = new Vector3(0, 0, 0);
+            sfx.Play();
         }
     }
 }
