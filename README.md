@@ -11,6 +11,9 @@ Challenges:
 
 
 Fire by Jakob Hippe [CC-BY] via Poly Pizza
+Green Spiky Blob byQuaternius
+https://skfb.ly/6ZJGr
+https://www.deviantart.com/necroalx/art/Persona-5-Mothman-XPS-FBX-803365853
 
 Sounds by Nintendo and Atlus
 Music by Shoji Meguro
